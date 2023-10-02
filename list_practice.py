@@ -34,3 +34,10 @@ print(pizza_and_prices)
 #print the cheapest pizzas, first three list items
 three_cheapest = pizza_and_prices[:3]
 print(three_cheapest)
+
+#zip function
+combined_list = zip(toppings, prices)
+print(combined_list)
+#convert zip object to list
+new_list = list(combined_list)
+print(new_list)
